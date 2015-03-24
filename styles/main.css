@@ -1,6 +1,6 @@
 @import url(bootstrap.css);
 html {
-  height: 100%; }
+  min-height: 100%; }
 
 body {
   /* This image will be displayed fullscreen */
@@ -14,13 +14,11 @@ body {
   background-color: rgba(16, 16, 16, 0.75); }
 
 #main {
-  margin-top: 52px;
-  top: 0;
-  bottom: 0; }
+  margin-top: 52px; }
 
 section {
-  margin-bottom: 1000px;
-  height: 600px;
+  margin-bottom: 25vh;
+  height: 75vh;
   background-color: rgba(200, 200, 200, 0.9); }
 
 section.welcome {
