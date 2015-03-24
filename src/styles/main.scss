@@ -1,0 +1,44 @@
+
+@import "bootstrap.css";
+
+html {
+  height:100%;
+}
+
+body {
+    /* This image will be displayed fullscreen */
+    background:url('../images/ferry_quarter.jpg') no-repeat center center;
+
+    /* The Magic */
+    background-size:cover;
+    background-attachment: fixed;
+    min-height:100%;
+}
+
+.navbar-inverse {
+    background-color:rgba(16,16,16,.75);
+}
+
+#main {
+  margin-top: 52px;
+  top:0;
+  bottom:0;
+}
+
+section {
+  margin-bottom: 1000px;
+  height:600px;
+  background-color: rgba(200,200,200,.9);
+}
+
+section.welcome {
+  background-color: rgba(200,200,200,.0 );;
+}
+
+.bookmark:focus {
+  outline: none;
+}
+.bookmark {
+  display:block;
+  padding-top: 52px;
+}
